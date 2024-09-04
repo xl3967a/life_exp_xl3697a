@@ -25,3 +25,11 @@ gapminder::gapminder_unfiltered  |>
   sumdat
 ```
 
+The following table shows the country with the highest life expectancy in each year:
+
+```{r}
+
+sumdat
+```
+
+  111111
