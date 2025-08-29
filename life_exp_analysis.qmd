@@ -4,7 +4,7 @@ author: "Xiang Liu"
 date: "2024-09-04"
 format: html
 ---
-
+12test
 ```{r}
 library(tidyverse)
 ```
@@ -16,7 +16,7 @@ Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 # Analysis
 
 ```{r}
-gapminder::gapminder_unfiltered  |> 
+gapminder::gapminder_unfiltered  |>
   group_by(year) |>
   filter(lifeExp == max(lifeExp)) |>
   ungroup() |>
@@ -31,5 +31,3 @@ The following table shows the country with the highest life expectancy in each y
 
 sumdat
 ```
-
-  111111
